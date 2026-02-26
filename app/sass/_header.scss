@@ -1,0 +1,37 @@
+.container {}
+
+.header {
+  margin-bottom: 10px;
+
+  img {
+    opacity: 0.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+    width: 100vw;
+  }
+
+
+
+  h1 {
+    font-family: serif;
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 65px;
+    text-transform: uppercase;
+    width: 250px;
+
+    span {
+      color: #E78C1E;
+    }
+  }
+
+  position: relative;
+
+
+
+  &__inner {
+    position: absolute;
+    bottom: 10px;
+
+  }
+}

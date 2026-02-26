@@ -1,0 +1,61 @@
+@import "_normalize.scss";
+@import "_vars.scss";
+@import "_global.scss";
+@import "_fonts.scss";
+@import "_header.scss";
+
+main {
+  margin-bottom: 10px;
+
+  p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(138deg, #1b1b20 0%, #717286 63.34%), rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      background-image: url('../images/arow-white.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 40%;
+      right: 20px;
+      width: 30px;
+      height: 20px;
+      // background-color: #fff;
+      // opacity: 0.1;
+    }
+  }
+
+  .btn-start {
+    background: #E78C1E;
+    color: #1c1c1c;
+    border: 1px solid #E78C1E;
+  }
+}
+
+footer {
+  ul {
+    opacity: 0.6;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  padding-bottom: 20px;
+}
+
+@import "_media.scss";
